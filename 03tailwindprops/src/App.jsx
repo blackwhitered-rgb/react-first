@@ -8,7 +8,7 @@ function App() {
   const [count, setCount]=useState(0)
   return (
     <>
-      <Header />
+      <Header name="Roosevelt"/>
       <h1 className='p-3 text-3xl bg-green-500 rounded-md'>Vite with Tailwind</h1>
       <Card username="bradley"/>
     </>
